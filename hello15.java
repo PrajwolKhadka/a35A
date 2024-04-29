@@ -12,6 +12,7 @@ public class hello15 {
         double area = length * breadth;
         int areaInt = (int) area;
 System.out.println("Area of rectangle (type casted to int): " + areaInt);
+scanner.close();
 }
 }
 
